@@ -7,7 +7,7 @@
   "main": "build/main.js",
   "scripts": {
     "build": "tsc",
-    "dev": "node --loader ts-node/esm/transpile-only src/main.ts",
+    "dev": "node --loader ts-node/esm/transpile-only src/main.ts | pino-pretty",
     "start": "node build/main.js",
     "watch": "nodemon --exec npm run dev --watch src --ext ts"
   },
@@ -15,7 +15,13 @@
     "@discordx/importer": "^1.3.1",
     "@discordx/pagination": "^3.5.5",
     "discord.js": "^14.17.3",
-    "discordx": "^11.12.2"
+    "discordx": "^11.12.2",
+    "dotenv": "^16.4.7",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0",
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.20"
   },
   "devDependencies": {
     "@types/node": "^22.10.10",
