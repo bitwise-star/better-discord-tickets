@@ -1,4 +1,24 @@
-#  ⚒️ Discord Tickets Bot
-> ⚠️ Esse bot está para passar por uma grande atualização, ele funciona normalmente, mas recomendado aguardar futuros updates.
+<div align="center">
+  <h1>🤖 Discord Tickets Bot</h1>
+</div>
 
-Esse é um simples bot feito com o intuito de ser totalmente customizável e fácil de se configurar em seu servidor discord, no qual necessita de um bot próprio para gerenciar tickets!
+Bot discord feito para ajudar pequenos servidores discord, contendo um sistema de tickets próprio separados por categorias e painéis. Esse projeto está para receber uma atualização em sua branch `v2`.
+
+## ⚒ Buildando o projeto
+Instale os pacotes necessários utilizando o comando:
+```
+pnpm install
+```
+Realize o build e inicie o projeto:
+```
+pnpm build
+```
+```
+pnpm start
+```
+
+## 🧰 Testando o projeto em ambiente de desenvolvimento
+Você pode utilizar o comando abaixo para ativar o nodemon, que buscará por alterações em arquivos que você realizar e automaticamente reiniciará o bot:
+```
+pnpm watch
+```
